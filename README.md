@@ -1,4 +1,4 @@
-# marketing-email-spamprevent-skill
+# genpark-marketing-email-spamprevent-skill
 
 > **GenPark AI Agent Skill** -- Email spam trigger words compiler and score evaluator.
 
