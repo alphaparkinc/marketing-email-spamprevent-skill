@@ -1,0 +1,36 @@
+{
+  "name": "marketing-email-spamprevent-skill",
+  "version": "1.0.0",
+  "description": "Scans email body draft texts to detect spam trigger words and calculate clean delivery score metrics.",
+  "author": "alphaparkinc",
+  "category": "marketing",
+  "tags": [
+    "spam-detection",
+    "email-marketing",
+    "deliverability",
+    "nlp",
+    "compliance"
+  ],
+  "inputs": {
+    "email_subject": {
+      "type": "string",
+      "description": "Email subject header text."
+    },
+    "email_body": {
+      "type": "string",
+      "description": "Main email body text content."
+    }
+  },
+  "outputs": {
+    "spam_score": {
+      "type": "integer",
+      "description": "Risk score (0 to 100)."
+    },
+    "trigger_words_detected": {
+      "type": "array",
+      "description": "Spam buzzwords detected."
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
