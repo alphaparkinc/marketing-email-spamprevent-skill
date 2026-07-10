@@ -1,5 +1,5 @@
 {
-  "name": "marketing-email-spamprevent-skill",
+  "name": "genpark-marketing-email-spamprevent-skill",
   "version": "1.0.0",
   "description": "GenPark AI Agent Skill - Scans email body draft texts to detect spam trigger words and calculate clean delivery score metrics.",
   "author": "genpark",
